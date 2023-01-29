@@ -12,7 +12,7 @@ e realizar o desafio proposto. <br><br>
 # Informações:
 
 * Projeto em React 🧑‍🎓
-* Os seguintes requisito do desafio:
+* Os seguintes requisitos do desafio:
  - o usuário pode clicar em qualquer lugar da página.
  - deve-se renderizar um pequeno círculo na posição clicada.
  - a cada clique, mantém-se os círculos já criados e renderiza-se um novo.
