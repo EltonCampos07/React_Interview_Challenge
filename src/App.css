@@ -1,0 +1,53 @@
+:root {
+  --header-color: rgb(127, 234, 255);
+  --main-title-color: white;
+  --main-color-content-area: #f6f6f6;
+  --btn-color: burlywood;
+  --dot-color: rgb(220, 31, 31);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-header {
+  flex-direction: column;
+  background-color: var(--header-color);
+  height: 6rem;
+}
+
+.container-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  color: var(--main-title-color);
+  margin-bottom: 0.5rem;
+}
+
+.container-button-btn {
+  background-color: var(--btn-color);
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+
+.container-button-btn:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.container-main-content {
+  height: calc(100vh - 6rem);
+  background-color: var(--main-color-content-area);
+}
+
+.point{
+    display: block;
+    position: absolute;
+    background-color: var(--dot-color);
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 5px;
+}
+
